@@ -10,13 +10,34 @@
                         <!--Google fonts & fontawesome icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-    <title>Html Boilerplate</title>
+    <title>Form Validation Opgave</title>
 </head>
 <body>
     <header></header>
     <main>
-        <section>
-            
+        <section class="form-validation">
+            <fieldset class="form-fieldset">
+                <form id="myForm">
+                    <header>
+                        <h1>Js Form Validation</h1>
+                    </header>
+                    <label for="fNavn">Indtast fornavn</label>
+                    <input type="text" id="fNavn" placeholder="John">
+                    <label for="lName">Indtast efternavn</label>
+                    <input type="text" id="lName" placeholder="Doe">
+                    <label for="adress">Indtast din adresse</label>
+                    <input type="text" id="address" placeholder="Vejnavn 123 Aalborg">
+                    <label for="postNumber">Indtast dit postnummer</label>
+                    <input type="text" id="postNumber" placeholder="9000">
+                    <label for="Email">Indtast din email</label>
+                    <input type="email" id="Email" placeholder="john@doe.com">
+                    <span class="form-btns">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Send">
+                    </span>
+                </form>
+                <div id="errors"></div>
+            </fieldset>
         </section>
     </main>
     <footer></footer>

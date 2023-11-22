@@ -103,10 +103,8 @@ form.addEventListener("submit", (e) => {
         congratz.innerText = "tiløk!";
         formParent.appendChild(congratz);
         console.log("form er udfyldt korrekt!");
-        console.table(form);
     }
     else {
         console.log("Form er ikke udfyldt korrekt");
-        console.table(form);
     }
 });
